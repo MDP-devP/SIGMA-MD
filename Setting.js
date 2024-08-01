@@ -58,36 +58,37 @@ global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; /
 
 
 //===========================[COMPULSORY VARIABLES]================================
-global.owner = process.env.OWNER_NUMBER  || '923466319114' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '237692280295' ;  // ADD YOUR NUMBER WITHOUT +
 global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
 //=================================================================================
 
 
 //======================[YOUR CHOICE, CHANGE OR LEAVE IT SAME]=====================
-global.sudo  =  process.env.SUDO || "923466319114" ;          // DON'T REMOVE
-global.mztit = process.env.MZTIT ||"🅼♥︎❚❚♥︎🆉",               // ADD YOUR TITLE, ONE WORD WILL BE MORE BETTER
+global.sudo  =  process.env.SUDO || "237692280295" ;          // DON'T REMOVE
+global.mztit = process.env.MZTIT ||"🐉Monkey-Bot🤞🐉",               // ADD YOUR TITLE, ONE WORD WILL BE MORE BETTER
 global.gurl  = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6e2057568db8926.jpg' ;
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://image.noelshack.com/fichiers/2024/31/4/1722491296-otaku-food-20240722-205549-0000.jpg
+' ;
 //=================================================================================
 
 
 module.exports = {
 
   //==============================[COMPULSORY]=====================================
-  sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
-  botname: process.env.BOT_NAME       || 'sɪɢᴍᴀ-ᴍᴅ',         // ADD YOUR BOT NAME
-  ownername:  process.env.OWNER_NAME  || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // ADD YOUR NAME
+  sessionName: process.env.SESSION_ID || '01_08_2024_SIGMA_MD_LYxnwQEi_MAHER_ZUBAIR',              // PUT YOUR SESSION ID
+  botname: process.env.BOT_NAME       || 'Monkey-Bot',         // ADD YOUR BOT NAME
+  ownername:  process.env.OWNER_NAME  || `🐉Monkey🐉`, // ADD YOUR NAME
   HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
   WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
   //================================================================================
 
 
   //==============================[WHAT'SAPP FEATURES]==============================
-  author:  process.env.PACK_AUTHER  || 'ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ',      // ADD YOUR STICKER AUTHOR NAME
+  author:  process.env.PACK_AUTHER  || 'Monkey-Bot',      // ADD YOUR STICKER AUTHOR NAME
   status_view : process.env.AUTO_STATUS_VIEW   || 'false',    // IF IT TRUE IT AUTOMATICALLY VIEWS YOUR STATUSES
   status_saver : process.env.AUTO_STATUS_SAVER || 'false', // IF TRUE IT AUTOMATICALLY DOWNLOADS YOUR STATUSES AND SEND IN YOUR INBOX
-  packname:  process.env.PACK_NAME  || "sɪɢᴍᴀ-ᴍᴅ" ,          // ADD YOUR STICKER PACKNAME
+  packname:  process.env.PACK_NAME  || "sticker-Monkey" ,          // ADD YOUR STICKER PACKNAME
   autoreaction: process.env.AUTO_REACTION || 'false',    // IF TRUE IT WILL REACT TO YOUR MESSAGES
   readmessage: process.env.READ_MESSAGE   || 'false',      // IF TRUE IT WILL SEEN ALL YOUR MESSAGES
   disablepm: process.env.DISABLE_PM || "false",        // IF TRUE IT WILL DISABLE THE BOT IN YOUR PM
